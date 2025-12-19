@@ -17,7 +17,7 @@ struct RGBbuffer {
 };
 
 extern uint8_t grayBuffer[K];
-extern uint8_t resultBuffer[K-3+1];
+extern uint8_t resultBuffer[K];
 extern RGBbuffer RGBimgbuffer;
 
 #endif //PIXEL_BUFFER_H

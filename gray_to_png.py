@@ -19,5 +19,5 @@ def convert_gray_to_png(raw_file, output_file, width=254, height=254):
 
 # IMPORTANT: Match these to your actual output size!
 convert_gray_to_png('grayImg.gray', 'result_grayscale.png', 256, 256) # Grayscale usually keeps full size
-convert_gray_to_png('blurred.gray', 'result_blurred.png', 254, 254)   # Filtered loses 2 pixels
-convert_gray_to_png('edges.gray', 'result_edges.png', 254, 254)       # Filtered loses 2 pixels
+convert_gray_to_png('blurred.gray', 'result_blurred.png', 256, 256)   # Filtered loses 2 pixels
+convert_gray_to_png('edges.gray', 'result_edges.png', 256, 256)       # Filtered loses 2 pixels
